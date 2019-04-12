@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PswInputView">
+        <attr name="pswCount" format="integer"/>
+        <attr name="pswDotColor" format="color"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="borderCornerRadius" format="dimension"/>
+        <attr name="borderStrokeWidth" format="dimension"/>
+        <attr name="dividerStrokeWidth" format="dimension"/>
+        <attr name="pswDotRadius" format="dimension"/>
+    </declare-styleable>
+</resources>
