@@ -23,7 +23,8 @@ dependencies {
 
 ## Usage
 
-``` <com.practice.lishan.pswinputview.PswInputView
+```
+ <com.practice.lishan.pswinputview.PswInputView
             android:id="@+id/piv_default"
             android:layout_width="match_parent"
             android:layout_height="100dp"
