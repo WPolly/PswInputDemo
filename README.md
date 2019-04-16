@@ -43,6 +43,14 @@ In xml file,
             app:borderCornerRadius="8dp"
             app:pswDotRadius="6dp"
             app:pswDotColor="@color/colorBlue"/>
+            
+            // callback 
+            pivDefault.setOnPswInputCompletedListener(new PswInputView.OnPswInputCompletedListener() {
+                @Override
+                public void onPswInputCompleted(String psw) {
+                    tvTitle.setText(psw);
+                }
+            });
  ```
 
 ## Snapshots
