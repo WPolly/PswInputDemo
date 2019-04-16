@@ -1,4 +1,4 @@
-# PswInputDemo
+# PswInputView
 简单灵活的数字密码输入框控件
 
 使用简便，高度可定制化。
@@ -17,6 +17,6 @@ allprojects {
 Then, add the library to your module `build.gradle`
 ```gradle
 dependencies {
-    implementation 'com.github.WPolly:PswInputDemo:v1.0'
+    implementation 'com.github.WPolly:PswInputView:v1.0'
 }
 ```
