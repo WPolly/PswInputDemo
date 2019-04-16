@@ -47,4 +47,4 @@ In xml file,
 
 ## Snapshots
 
-![test.gif](https://github.com/WPolly/PswInputView/tree/master/images/snapshots.png)
+![snapshots.png](https://github.com/WPolly/PswInputView/tree/master/images/snapshots.png)
