@@ -23,8 +23,9 @@ dependencies {
 
 ## Usage
 
+In xml file,
 ```
- <com.practice.lishan.pswinputview.PswInputView
+        <com.practice.lishan.pswinputview.PswInputView
             android:id="@+id/piv_default"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -44,3 +45,6 @@ dependencies {
             app:pswDotColor="@color/colorBlue"/>
  ```
 
+## Snapshots
+
+![test.gif](https://github.com/WPolly/PswInputView/tree/master/images/snapshots.png)
