@@ -23,8 +23,9 @@ dependencies {
 
 ## Usage
 
-In xml file,
+
 ```
+In xml,
         <com.practice.lishan.pswinputview.PswInputView
             android:id="@+id/piv_default"
             android:layout_width="match_parent"
@@ -44,6 +45,7 @@ In xml file,
             app:pswDotRadius="6dp"
             app:pswDotColor="@color/colorBlue"/>
             
+In java,
             // callback 
             pivDefault.setOnPswInputCompletedListener(new PswInputView.OnPswInputCompletedListener() {
                 @Override
