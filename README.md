@@ -20,3 +20,26 @@ dependencies {
     implementation 'com.github.WPolly:PswInputView:v1.0'
 }
 ```
+
+## Usage
+
+``` <com.practice.lishan.pswinputview.PswInputView
+            android:id="@+id/piv_default"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"/>
+    
+        <com.practice.lishan.pswinputview.PswInputView
+            android:id="@+id/piv_asset_protect"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            app:pswCount="8"
+            app:borderColor="@color/colorPrimaryDark"
+            app:dividerColor="@color/colorPrimary"
+            app:dividerStrokeWidth="0.8dp"
+            app:borderCornerRadius="8dp"
+            app:pswDotRadius="6dp"
+            app:pswDotColor="@color/colorBlue"/>
+ ```
+
